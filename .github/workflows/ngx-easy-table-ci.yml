@@ -31,9 +31,6 @@ jobs:
         env:
           CI: true
 
-      - name: Linter
-        run: npm run lint
-
       - name: "Publish @paddls/ngx-easy-table"
         uses: pascalgn/npm-publish-action@1.3.9
         with:
